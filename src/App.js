@@ -8,8 +8,8 @@ function App() {
     <Router>
       <Layout>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/vaibhav-portfolio/home" element={<Home />} />
+            <Route path="/vaibhav-portfolio/projects" element={<Projects />} />
           </Routes>
       </Layout>
     </Router>
