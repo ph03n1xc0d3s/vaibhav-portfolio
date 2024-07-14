@@ -20,16 +20,16 @@ const Navbar = () => {
         </div>
         <ul className={`unordered-list ${isOpen ? "open" : ""}`}>
           <li className="list">
-            <Link to="/">
+            <Link to="/vaibhav-portfolio">
               Home
             </Link>
-            <Link to="/projects">
+            <Link to="/vaibhav-portfolio/projects">
               Projects
             </Link>
-            <Link to="/journey">
+            <Link to="/vaibhav-portfolio//journey">
               Journey
             </Link>
-            <Link to="/contact">
+            <Link to="/vaibhav-portfolio//contact">
               Contact
             </Link>
           </li>
