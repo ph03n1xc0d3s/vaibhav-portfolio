@@ -1,0 +1,29 @@
+.slides {
+    color: #ebebeb;
+}
+
+.card {
+    padding: 20px;
+}
+
+.card .card-image img {
+    width: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card .card-title h3 {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.card .card-title span {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.card .card-body p {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 20px;
+}

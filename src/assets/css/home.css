@@ -1,0 +1,236 @@
+.section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 700px;
+    background-color: #191919;
+    color: #fff;
+}
+
+.section-container .socials-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-container .socials-container li {
+    list-style: none;
+    display: flex;
+}
+
+.section-container .socials-container li svg {
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    fill:#6905bb;
+}
+
+.section-container .section-title {
+    font-family: "Montserrat", sans-serif;
+    width: 35%;
+    line-height: 28px;
+}
+
+.section-container .section-title h3 {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.section-container .section-image .section-container-image {
+    width: 400px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+.projects-btn button{
+    margin-top: 15px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #480182;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    border: none;
+}
+
+.projects-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.skills-section-container {
+    padding: 40px 0;
+    background-color: #480182;
+    display: flex;
+    justify-content: center;
+}
+
+.skills-container {
+    width: 90%; /* Adjusted to occupy 90% of the viewport width */
+    max-width: 800px; /* Added max-width to limit container size */
+    margin: 0 auto; /* Center align on larger screens */
+    padding: 20px;
+    border-radius: 17px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.skills-container .skills-title {
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skills-container .skills-title .circle {
+    background-color: #480182;
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.skills-container .skills-title h3 {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.skills .container {
+    width: calc(50% - 20px); /* Adjusted width for smaller screens with margin */
+    margin-bottom: 20px; /* Added margin for spacing between items */
+    padding: 0 10px; /* Added padding for better spacing */
+    box-sizing: border-box; /* Ensures padding doesn't affect width calculation */
+}
+
+.skills .container p {
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.progress {
+    width: 100%; /* Full width on all screen sizes */
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    width: 0%;
+    height: 5px;
+    background-color: #6905bb;
+    border-radius: 5px;
+    border: none;
+    transition: width 0.5s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .skills-container {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+    
+    .skills .container {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+
+.empty{
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 1199px) {
+    .section-container {
+        padding: 20px;
+    }
+    
+    .section-container .section-title {
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .section-container .section-title h3 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .section-container .section-image .section-container-image {
+        width: 100%;
+        max-width: 300px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .section-container .section-title {
+        font-size: 20px;
+    }
+
+    .section-container .section-title h3 {
+        font-size: 24px;
+    }
+
+    .section-container .section-image .section-container-image {
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .section-container {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        overflow-x: hidden;
+        min-height: auto;
+        padding: 20px;
+    }
+    .socials-container svg{
+        display: none;
+    }
+
+    .section-container .section-title {
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .section-container .section-title h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .section-container .section-image .section-container-image {
+        width: 100%;
+        max-width: 300px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .socials-container svg{
+        display: none;
+    }
+
+    .section-container .section-title {
+        font-size: 16px;
+    }
+
+    .section-container .section-title h3 {
+        font-size: 20px;
+    }
+
+    .section-container .section-image .section-container-image {
+        max-width: 200px;
+    }
+}

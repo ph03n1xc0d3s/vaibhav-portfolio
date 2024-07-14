@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+}
+
+.main-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.unordered-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+
+.unordered-list .list {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.unordered-list .list a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.unordered-list .logo-image {
+    width: 200px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.unordered-list .logo-image .name {
+    color: #fff;
+}
+
+/* Navbar styles */
+.navbar-container {
+    background-color: #480182;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-image {
+    width: 200px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.logo-image .name {
+    color: #fff;
+}
+
+.menu-toggle {
+    display: none;
+    /* Hide by default */
+    cursor: pointer;
+    padding: 10px;
+}
+
+.hamburger {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: transform 0.3s ease;
+}
+
+.open .hamburger:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.open .hamburger:nth-child(2) {
+    opacity: 0;
+}
+
+.open .hamburger:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -5px);
+}
+
+@media screen and (max-width: 767px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .unordered-list {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #000;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        z-index: 1000;
+    }
+
+    .unordered-list.open {
+        display: block;
+    }
+
+    .list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .list a {
+        font-size: 18px;
+    }
+}
