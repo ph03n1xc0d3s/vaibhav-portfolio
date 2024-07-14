@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Layout>
           <Routes>
-            <Route path="/vaibhav-portfolio/home" element={<Home />} />
+            <Route path="/vaibhav-portfolio/" element={<Home />} />
             <Route path="/vaibhav-portfolio/projects" element={<Projects />} />
           </Routes>
       </Layout>
