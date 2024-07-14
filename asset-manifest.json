@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vaibhav-portfolio/static/css/main.55f57e20.css",
-    "main.js": "/vaibhav-portfolio/static/js/main.765c3bfb.js",
+    "main.js": "/vaibhav-portfolio/static/js/main.4d8593eb.js",
     "static/js/845.185071e5.chunk.js": "/vaibhav-portfolio/static/js/845.185071e5.chunk.js",
     "static/media/scootworld.png": "/vaibhav-portfolio/static/media/scootworld.eb2bf937767e34fe1e9c.png",
     "static/media/naturelove.png": "/vaibhav-portfolio/static/media/naturelove.63abb384b09a121bc16b.png",
@@ -14,11 +14,11 @@
     "static/media/shopifyappblock.webp": "/vaibhav-portfolio/static/media/shopifyappblock.c7985cef8d3863f1d7d8.webp",
     "index.html": "/vaibhav-portfolio/index.html",
     "main.55f57e20.css.map": "/vaibhav-portfolio/static/css/main.55f57e20.css.map",
-    "main.765c3bfb.js.map": "/vaibhav-portfolio/static/js/main.765c3bfb.js.map",
+    "main.4d8593eb.js.map": "/vaibhav-portfolio/static/js/main.4d8593eb.js.map",
     "845.185071e5.chunk.js.map": "/vaibhav-portfolio/static/js/845.185071e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.55f57e20.css",
-    "static/js/main.765c3bfb.js"
+    "static/js/main.4d8593eb.js"
   ]
 }
