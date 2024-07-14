@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/vaibhav-portfolio/static/css/main.55f57e20.css",
+    "main.js": "/vaibhav-portfolio/static/js/main.37812a07.js",
+    "static/js/845.185071e5.chunk.js": "/vaibhav-portfolio/static/js/845.185071e5.chunk.js",
+    "static/media/scootworld.png": "/vaibhav-portfolio/static/media/scootworld.eb2bf937767e34fe1e9c.png",
+    "static/media/naturelove.png": "/vaibhav-portfolio/static/media/naturelove.63abb384b09a121bc16b.png",
+    "static/media/devaayamessentials.png": "/vaibhav-portfolio/static/media/devaayamessentials.7ebf7d50ce11dd1bec3e.png",
+    "static/media/stockpathshala.png": "/vaibhav-portfolio/static/media/stockpathshala.4df8c15e7c197466bdeb.png",
+    "static/media/wicksandwires.png": "/vaibhav-portfolio/static/media/wicksandwires.3f6d8c44b865120787c0.png",
+    "static/media/pawluxo.png": "/vaibhav-portfolio/static/media/pawluxo.7f06f5a10f4c598f08f4.png",
+    "static/media/main-container-image.jpg": "/vaibhav-portfolio/static/media/main-container-image.2eb30149d6c56adfaff5.jpg",
+    "static/media/lemp.jpg": "/vaibhav-portfolio/static/media/lemp.7c610e674c6d88634968.jpg",
+    "static/media/shopifyappblock.webp": "/vaibhav-portfolio/static/media/shopifyappblock.c7985cef8d3863f1d7d8.webp",
+    "index.html": "/vaibhav-portfolio/index.html",
+    "main.55f57e20.css.map": "/vaibhav-portfolio/static/css/main.55f57e20.css.map",
+    "main.37812a07.js.map": "/vaibhav-portfolio/static/js/main.37812a07.js.map",
+    "845.185071e5.chunk.js.map": "/vaibhav-portfolio/static/js/845.185071e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55f57e20.css",
+    "static/js/main.37812a07.js"
+  ]
+}
